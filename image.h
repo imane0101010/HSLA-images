@@ -9,9 +9,9 @@ class Image : public PNG
 public:
     Image(string filename);
     Image();
-    Image lighten(double amount);
-    Image rotateColor(double angle);
-    Image saturate(double amount);
+    void lighten(double amount);
+    void rotateColor(double angle);
+    void saturate(double amount);
 
 };
 
