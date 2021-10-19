@@ -16,7 +16,7 @@ Image::Image(string  filename ){
 Image::Image( ){
 
 }
-Image Image::lighten(double amount){
+void Image::lighten(double amount){
 
     for(unsigned x = 0; x < width() ; x++)
     for(unsigned y = 0; y < height(); y++)
@@ -33,9 +33,9 @@ Image Image::lighten(double amount){
      }
 
     }
-return *this;
+
 }
-Image Image::rotateColor(double angle){
+void Image::rotateColor(double angle){
 
     for(unsigned x = 0; x < width() ; x++){
     for(unsigned y = 0; y < height(); y++){
@@ -66,9 +66,9 @@ Image Image::rotateColor(double angle){
 }
 
 }
-    return *this;
+ 
 }
-Image Image::saturate(double amount){
+void Image::saturate(double amount){
     for(unsigned x = 0; x < width() ; x++){
     for(unsigned y = 0; y < height(); y++)
     {
@@ -89,5 +89,5 @@ Image Image::saturate(double amount){
 
 }
     }
- return *this;
+
 }
