@@ -5,7 +5,7 @@
 #include "image.h"
 #include <math.h>
 
-Spotlight::Spotlight(string filename,int X,int Y):Image(filename)
+Spotlight::Spotlight(string filename,int X,int Y):Image(filename),x(X),y(Y),filename(filename)
 {
 
 
