@@ -8,7 +8,7 @@ This project consists of manipulating images by adjusting the HSL color space pr
 
 Changing the saturation by a specific amount using the following method:
 
-void Image::saturate(double amount){
+    void Image::saturate(double amount){
     for(unsigned x = 0; x < width() ; x++){
     for(unsigned y = 0; y < height(); y++)
     {
@@ -16,21 +16,19 @@ void Image::saturate(double amount){
        HSLAPixel &P = getPixel(x, y);
      if(amount+P.s<=1 && P.s+amount>=0){
        P.s += amount;
-   }else if(P.s+amount <0){
+    }else if(P.s+amount <0){
          P.s =0;
-}
+      }
      else if(P.s+amount>1){
          P.s =1;
-     
-
-}
+    }
     }
 
 ## Rotating colors
 
 Increasing the hue of each pixel by an angle using the following method:
 
-void Image::rotateColor(double angle){
+    void Image::rotateColor(double angle){
 
     for(unsigned x = 0; x < width() ; x++){
     for(unsigned y = 0; y < height(); y++){
@@ -54,10 +52,8 @@ void Image::rotateColor(double angle){
 ## Lighten
 
 Changing the luminance of each pixel by amount using :
-Image::Image( ){
 
-}
-void Image::lighten(double amount){
+    void Image::lighten(double amount){
 
     for(unsigned x = 0; x < width() ; x++)
     for(unsigned y = 0; y < height(); y++)
