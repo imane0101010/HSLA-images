@@ -24,7 +24,7 @@ Changing the saturation by a specific amount using the following method:
     }
     }
 
-![alt text](https://github.com/imane010101/HSLA-images/blob/main/image_saturate.png?raw=true)
+![alt text](https://github.com/imane0101010/HSLA-images/blob/2131d1b36ca0e323020ce08801584ea2478b8a85/image_rotatecolor.png)
 ## Rotating colors
 
 Increasing the hue of each pixel by an angle using the following method:
@@ -50,7 +50,7 @@ Increasing the hue of each pixel by an angle using the following method:
      }
      }
 
-![image](https://github.com/[imane010101]/[HSLA-images]/blob/[main]/image_rotatecolor.png?raw=true)
+![image](https://github.com/imane0101010/HSLA-images/blob/2131d1b36ca0e323020ce08801584ea2478b8a85/image_saturate.png)
 
 ## Lighten
 
@@ -116,7 +116,7 @@ Replacing the hue of each pixel by either the first or the second color that wer
     }
     }
     
-![alt text](https://github.com/imane010101/HSLA-images/blob/main/image_illini.png?raw=true)
+![alt text](https://github.com/imane0101010/HSLA-images/blob/2131d1b36ca0e323020ce08801584ea2478b8a85/image_illini.png)
 
 ## Spotlight
 
@@ -141,7 +141,7 @@ A spotlight adjusts the luminance of a pixel based on the Euclidean distance the
       }
      }
      
-   ![alt text](https://github.com/imane010101/HSLA-images/blob/main/image_spotlight.png?raw=true)
+   ![alt text](https://github.com/imane0101010/HSLA-images/blob/2131d1b36ca0e323020ce08801584ea2478b8a85/image_spotlight.png)
 
 ### Changing the spotlight
 
