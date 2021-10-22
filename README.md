@@ -23,8 +23,8 @@ Changing the saturation by a specific amount using the following method:
          P.s =1;
     }
     }
+ ![image](https://github.com/imane0101010/HSLA-images/blob/2131d1b36ca0e323020ce08801584ea2478b8a85/image_saturate.png)
 
-![alt text](https://github.com/imane0101010/HSLA-images/blob/2131d1b36ca0e323020ce08801584ea2478b8a85/image_rotatecolor.png)
 ## Rotating colors
 
 Increasing the hue of each pixel by an angle using the following method:
@@ -50,8 +50,8 @@ Increasing the hue of each pixel by an angle using the following method:
      }
      }
 
-![image](https://github.com/imane0101010/HSLA-images/blob/2131d1b36ca0e323020ce08801584ea2478b8a85/image_saturate.png)
 
+![alt text](https://github.com/imane0101010/HSLA-images/blob/2131d1b36ca0e323020ce08801584ea2478b8a85/image_rotatecolor.png)
 ## Lighten
 
 Changing the luminance of each pixel by amount using :
