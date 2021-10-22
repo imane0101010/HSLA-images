@@ -92,7 +92,7 @@ Eliminating all the colors and representing the image using only a grayscale lev
     }
     }
 
-![alt text](https://github.com/imane010101/HSLA-images/blob/main/image_grayscale.png?raw=true)
+![alt text](https://github.com/imane0101010/HSLA-images/blob/fc73c240c40dc2ba8dd64bc1311cc603fc04e698/image_grayscale.png)
 
 ## Illini
 
