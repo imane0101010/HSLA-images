@@ -74,7 +74,7 @@ Changing the luminance of each pixel by amount using :
     }
     }
 
-![alt text](https://github.com/imane010101/HSLA-images/blob/main/image_lighten.png?raw=true)
+![alt text](https://github.com/imane0101010/HSLA-images/blob/597097aadca68bae2cc82c11dd190a4552689edb/image_lighten.png)
 
 ## Grayscale
 
