@@ -50,7 +50,7 @@ Increasing the hue of each pixel by an angle using the following method:
      }
      }
 
-![alt text](https://github.com/[imane010101]/[HSLA-images]/blob/[main]/image_rotatecolor.png?raw=true)
+![image](https://github.com/[imane010101]/[HSLA-images]/blob/[main]/image_rotatecolor.png?raw=true)
 
 ## Lighten
 
