@@ -1,10 +1,11 @@
-#HSLA Images
+# HSLA Images
 
 This project consists of manipulating images by adjusting the HSL color space properties (hue,saturation,luminance).
 
-#Transformations:
+# Transformations:
 
-##Saturation:
+## Saturation:
+
 Changing the saturation by a specific amount using the following method:
 
 void Image::saturate(double amount){
@@ -25,7 +26,8 @@ void Image::saturate(double amount){
 }
     }
 
-##Rotating colors
+## Rotating colors
+
 Increasing the hue of each pixel by an angle using the following method:
 
 void Image::rotateColor(double angle){
@@ -48,7 +50,9 @@ void Image::rotateColor(double angle){
 }
 }
 }
-##Lighten
+
+## Lighten
+
 Changing the luminance of each pixel by amount using :
 Image::Image( ){
 
@@ -73,7 +77,7 @@ void Image::lighten(double amount){
 
 }
 
-##Grayscale
+## Grayscale
 
 Eliminating all the colors and representing the image using only a grayscale level using:
 
@@ -89,7 +93,8 @@ Grayscale::Grayscale(string filename):Image(filename)
     }
 }
 
-##Illini
+## Illini
+
 Replacing the hue of each pixel by either the first or the second color that were defined as attributes.The choice is based on the closest color.
 
 Illini::Illini (string filename,int color1,int color2):Image(filename)
@@ -111,7 +116,9 @@ Illini::Illini (string filename,int color1,int color2):Image(filename)
 
     }
 }
-##Spotlight
+
+## Spotlight
+
 A Spotlight image create a spotlight centered at a given point centerX, centerY defined as attributes.
 
 A spotlight adjusts the luminance of a pixel based on the Euclidean distance the pixel is away from the center by decreasing the luminance by 0.5% per 1 pixel, up to 80% derease of luminance at a distance up to 160 pixels away.
@@ -140,7 +147,9 @@ Spotlight::Spotlight(string filename,int X,int Y):Image(filename),x(X),y(Y),file
 
 
 }
-###Changing the spotlight
+
+### Changing the spotlight
+
 Changing the position of the spotlight.
  void Spotlight::changeSpotPoint(int centerX, int centerY){
 
